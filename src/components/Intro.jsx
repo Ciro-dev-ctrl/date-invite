@@ -79,9 +79,10 @@ export default function Intro({ onYes }) {
         className="no-btn"
         onMouseEnter={moveButton}
         style={{
-            transform: `translate(${pos.x}px, ${pos.y}px)`,
+            transform: `translate(calc(-50% + ${pos.x}px), calc(-50% + ${pos.y}px))`,
             left: "50%",
-            top: "65%",
+            top: "70%",
+            position: "absolute",
         }}
         >
         {texts[count]}

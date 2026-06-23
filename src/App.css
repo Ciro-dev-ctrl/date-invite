@@ -199,7 +199,22 @@ button {
 
 .no-btn {
   position: absolute;
+
+  background: white;
+  color: #1f1f1f;
+
+  padding: 12px 24px;
+  border-radius: 30px;
+
+  border: none;
+
+  cursor: pointer;
+
+  font-size: 16px;
+
   z-index: 10;
+
+  transition: transform 0.2s ease;
 }
 
 .input {
