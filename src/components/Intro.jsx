@@ -76,15 +76,15 @@ export default function Intro({ onYes }) {
         </button>
 
         <button
-          className="no-btn"
-          onMouseEnter={moveButton}
-          style={{
-            transform: `translate(${pos.x}px, ${pos.y}px)`
-          }}
+        className="no-btn"
+        onMouseEnter={moveButton}
+        style={{
+            transform: `translate(${pos.x}px, ${pos.y}px)`,
+            left: "50%",
+            top: "65%",
+        }}
         >
-
-          {texts[count]}
-
+        {texts[count]}
         </button>
 
       </div>

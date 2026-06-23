@@ -200,12 +200,7 @@ button {
 
 .no-btn {
   position: absolute;
-
-  background: white;
-  padding: 12px 24px;
-  border-radius: 30px;
-
-  transition: transform 0.2s ease;
+  z-index: 10;
 }
 
 .input {
