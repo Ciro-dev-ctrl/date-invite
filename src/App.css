@@ -67,19 +67,20 @@ body {
 }
 
 .card {
-  width: 90%;
-  max-width: 500px;
+  position: relative;
 
-  background: rgba(255, 255, 255, 0.92);
+  background: #ffffff !important;
+
+  color: #1f1f1f;
 
   border-radius: 32px;
 
   padding: 40px;
 
-  box-shadow:
-    0 20px 50px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 500px;
 
-  animation: appear 0.7s ease;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15);
 
   display: flex;
   flex-direction: column;
@@ -87,11 +88,9 @@ body {
 
   gap: 20px;
 
-  position: relative;
-
   text-align: center;
 
-  color: #2b2b2b;
+  z-index: 10;
 }
 
 @keyframes appear {
